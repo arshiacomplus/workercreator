@@ -41,7 +41,7 @@ fi
 
 if [ -f worker_installer.py ]; then
     first_line=$(head -n 1 worker_installer.py)
-    if [ "$first_line" != "V=41" ]; then
+    if [ "$first_line" != "V=1" ]; then
         rm worker_installer.py
         echo "Updating worker_installer.py..."
         curl -fsSL -o worker_installer.py https://raw.githubusercontent.com/arshiacomplus/workercreator/main/worker_installer.py || { echo \"Failed to download worker_installer.py. Exiting.\"; exit 1; }
