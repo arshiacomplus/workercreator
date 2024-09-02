@@ -3,11 +3,11 @@
 ---
 #### درتمام مراحل نصب و استفاده فیلترشکن شما باید روشن باشه
 ---
-#### اسکریپت سلکتور :
+#### اسکریپت  :
 
 
 ```
-bash <(curl -fsSL https://raw.githubusercontent.com/arshiacomplus/workercreator/main/Sel.sh)
+bash <(curl -fsSL https://raw.githubusercontent.com/arshiacomplus/workercreator/main/worker_installer.py)
 ```
 
 ---
