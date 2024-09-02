@@ -9,7 +9,7 @@
 
 
 ```
-bash <(curl -fsSL https://raw.githubusercontent.com/Kolandone/Selector/main/Sel.sh)
+bash <(curl -fsSL https://raw.githubusercontent.com/arshiacomplus/workercreator/main/Sel.sh)
 ```
 
 ---
