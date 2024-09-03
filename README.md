@@ -7,7 +7,7 @@
 
 
 ```
-bash <(curl -fsSL https://raw.githubusercontent.com/arshiacomplus/workercreator/main/worker_installer.py)
+bash <(curl -fsSL https://raw.githubusercontent.com/arshiacomplus/workercreator/main/install.sh)
 ```
 
 ---
