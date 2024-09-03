@@ -1,5 +1,6 @@
 V=2
 import os
+os.system('clear')
 try :
     import requests
 except Exception:
