@@ -1,10 +1,21 @@
-import requests
+V=2
+import os
+try :
+    import requests
+except Exception:
+    os.system('pip install requests')
+    import requests
+
 import json
+try:
+    import rich
+except Exception:
+    os.system('pip install six rich')
+    import rich
 from rich.console import Console
 from rich.prompt import Prompt
 from rich import print as rprint
 from rich.table import Table
-import os
 import sys
 # ANSI escape codes for colors
 RED = '\033[91m'
