@@ -236,7 +236,7 @@ def main():
         
             kv_namespace_id = None
             variable_name = None
-            if create_kv == 'yes':
+            if create_kv == '1':
                 kv_namespace_name = input("Enter the desired KV namespace name: ")
                 variable_name = input("Enter the desired variable name for the KV namespace binding: ")
                 kv_namespace_id = create_kv_namespace(api_token, account_id, kv_namespace_name)
